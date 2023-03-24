@@ -1,0 +1,163 @@
+body {
+  padding: 3% 10%;
+  background: no-repeat url(/Images/cool-background.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  background: none;
+}
+
+.navbar-brand {
+  color: #ffff;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffff;
+}
+
+.logo {
+  width: 50px;
+}
+
+.demo-btn {
+  border-radius: 0;
+  background-color: #555;
+  border: none;
+  padding: 10px 20px;
+}
+
+.title-section {
+  padding: 7% 0;
+}
+
+.title {
+  display: flex;
+}
+
+.title-info {
+  width: 50%;
+}
+
+.title h1 {
+  color: #ffff;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.title p {
+  color: #eaeaea;
+}
+
+.sign-up-button {
+  background-color: #00abb3;
+  border-radius: 0px;
+  color: #eaeaea;
+  padding: 10px 20px;
+  margin-left: 30px;
+  opacity: 0.8;
+}
+
+.email-input {
+  background-color: #555;
+  color: #eaeaea;
+  opacity: 0.8;
+  border: 2px solid #555;
+  padding: 10px;
+  width: 60%;
+}
+
+.email-input::placeholder {
+  color: #eaeaea;
+}
+
+.sponsors {
+  display: flex;
+}
+
+.sponsors a {
+  color: #eaeaea;
+  font-weight: 600;
+  text-decoration: none;
+  padding-top: 40px;
+  margin-right: 100px;
+  float: right;
+}
+
+.w-logo {
+  width: 60px;
+}
+
+.title-image {
+  position: absolute;
+  right: 0;
+  width: 550px;
+}
+
+/* Middle Section */
+#middle-section {
+  background-color: #ffff;
+  display: flex;
+  padding: 10% 0;
+  margin: 0 -13%;
+}
+
+.middle-images {
+  display: flex;
+}
+
+.middle-images img {
+  border: #ffff 5px solid;
+  width: 40%;
+}
+
+.middle-info {
+  padding: 0 100px;
+}
+
+.middle-info h1 {
+  line-height: 1.5;
+}
+
+.discover-btn {
+  border: none;
+  margin-top: 20px;
+  margin-left: 0;
+  opacity: 1;
+}
+
+/* Tablet Media queries */
+@media (max-width: 1020px) {
+  .title-info {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .title {
+    display: inline;
+  }
+
+  .title-image {
+    margin-top: 10%;
+    margin-left: 10%;
+    position: relative;
+    width: 80%;
+  }
+}
+
+/* Mobile Media queries */
+@media (max-width: 420px) {
+  .title h1 {
+    font-size: 2.2rem;
+  }
+
+  .sign-up-button {
+    margin-left: 0;
+  }
+}
